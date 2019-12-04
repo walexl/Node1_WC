@@ -64,6 +64,7 @@ MyMessage msg1(CHILD_ID_Relay1, V_STATUS); // Создаём контейнер�
 MyMessage msgStatus(1, V_VAR1);
 MyMessage msgHum(CHILD_ID_HUM, V_HUM);
 MyMessage msgTemp(CHILD_ID_TEMP, V_TEMP);
+
 DHT dht;
 GButton butt1(BTN_PIN);
 GButton door(DOOR_PIN);
